@@ -16,6 +16,7 @@ local isWOD = (buildver > 60000) and (buildver < 70000)
 local isLEGION = (buildver > 70000) and (buildver < 80000)
 local isBFA = (buildver > 80000) and (buildver < 90000)
 local isSL = (buildver > 90000) and (buildver < 100000)
+local isDF = (buildver > 100000) and (buildver < 110000)
 local isRetail = (buildver >= 110000)
 
 local L = LibStub("AceLocale-3.0"):GetLocale("HandyNotes_WorldMapButton", false);
